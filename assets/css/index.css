@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 430px;
+    
+}
+
+header {
+    background-image: url(/assets/images/images-iphone/header-background.png);
+    background-size: cover;
+    padding: 60px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1{
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 2em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space: pre-line;
+}
+
+header p {
+    color: #FFFFFF;
+    padding: 24px 0px;
+}
+
+.button {
+    width: 381px;
+    height: 54px;
+    margin: 10px auto;
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    align-content: center;    
+}
+
+.button-2 {
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 2em;
+    color: #23272A;    
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    size: 1.5em;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: #23272A;
+}
+
+section {
+    padding: 40px 24px;
+}
+
+h2, p {
+    
+    padding: 12px 0px;
+}
+
+footer {
+    width: 430px;
+    height: 140px;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
