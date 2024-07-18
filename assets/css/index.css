@@ -10,6 +10,7 @@ html {
     
 }
 
+
 header {
     background-image: url(/assets/images/images-iphone/header-background.png);
     background-size: cover;
@@ -31,6 +32,8 @@ header h1{
 header p {
     color: #FFFFFF;
     padding: 24px 0px;
+    min-width: 2vw;
+    margin: auto;
 }
 
 .button {
@@ -70,6 +73,7 @@ p {
     font-weight: 400;
     font-size: 1em;
     color: #23272A;
+    
 }
 
 section {
@@ -88,5 +92,87 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+
+@media screen and (min-width: 431px) {
+
+    html{
+        min-width: 100%;
+    }
+
+    header{
+        background-image: url(/assets/images/images-desktop/background.png);
+     }
+
+     header h1,p {
+        margin: auto;
+     }
+
+     header h1 {
+        font-size: 3em;
+        white-space: pre-line;
+        text-align: center;
+     }
+
+     h1 {
+        font-size: 3em;
+     }
+
+     h2 {
+        font-size: 2.5em;
+     }
+
+     header p {
+        padding: 10px 200px ;
+        text-align: center;
+     }
+
+     p {
+        font-size: 1em;
+     }
+
+     .button-container {
+        margin: auto;
+        width: 600px;
+        display: flex;
+        flex-direction: row;        
+     }
+
+     .button {
+        box-sizing: border-box;
+        padding: 0px 20px;
+        min-width: 220px;
+        flex-basis: max-content ;
+     }
+
+     section {
+        margin: auto;
+        width: 970px;
+        display: flex;
+        align-items: center;
+     }
+
+     .section-2 {
+        display: flex;
+        flex-direction: row-reverse;
+     }
+
+     .card-container {
+        width: 351px;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .last-section {
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+     }
+
+     footer {
+        width: 100%;
+     }
+
+
+
 }
